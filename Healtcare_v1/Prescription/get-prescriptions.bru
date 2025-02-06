@@ -1,0 +1,28 @@
+meta {
+  name: get-prescriptions
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:1339/api/prescriptions
+  body: none
+  auth: bearer
+}
+
+params:query {
+  ~sort: 
+  ~pagination[withCount]: 
+  ~pagination[page]: 
+  ~pagination[pageSize]: 
+  ~pagination[start]: 
+  ~pagination[limit]: 
+  ~fields: 
+  ~populate: 
+  ~filters: 
+  ~locale: 
+}
+
+auth:bearer {
+  token: {{token}}
+}

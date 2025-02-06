@@ -1,0 +1,21 @@
+meta {
+  name: Send confirmation email
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:1339/api/auth/send-email-confirmation
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "email": ""
+  }
+}

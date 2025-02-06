@@ -1,0 +1,28 @@
+meta {
+  name: post-prescriptions
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:1339/api/prescriptions
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "data": {
+      "prescription": [],
+      "dispensaries": [],
+      "doctor": "",
+      "patient": "",
+      "locale": "",
+      "localizations": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+meta {
+  name: post-labs
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:1339/api/labs
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "data": {
+      "report": "",
+      "dicoms": [],
+      "users": [],
+      "prescription": [],
+      "hospital": "",
+      "locale": "",
+      "localizations": []
+    }
+  }
+}

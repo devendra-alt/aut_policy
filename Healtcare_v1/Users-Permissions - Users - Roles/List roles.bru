@@ -1,0 +1,15 @@
+meta {
+  name: List roles
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:1339/api/users-permissions/roles
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{JWT}}
+}

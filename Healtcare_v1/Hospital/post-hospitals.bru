@@ -1,0 +1,31 @@
+meta {
+  name: post-hospitals
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:1339/api/hospitals
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "data": {
+      "dispensaries": [],
+      "patient": [],
+      "doctors": [],
+      "labs": [],
+      "Hospital_name": "",
+      "Address": "",
+      "hospital_id": "",
+      "locale": "",
+      "localizations": []
+    }
+  }
+}

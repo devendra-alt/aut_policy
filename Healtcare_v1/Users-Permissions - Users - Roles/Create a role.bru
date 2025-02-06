@@ -1,0 +1,24 @@
+meta {
+  name: Create a role
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:1339/api/users-permissions/roles
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "name": "",
+    "description": "",
+    "type": "",
+    "permissions": ""
+  }
+}

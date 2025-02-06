@@ -1,0 +1,28 @@
+meta {
+  name: get-labs
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:1339/api/labs
+  body: none
+  auth: bearer
+}
+
+params:query {
+  ~sort: 
+  ~pagination[withCount]: 
+  ~pagination[page]: 
+  ~pagination[pageSize]: 
+  ~pagination[start]: 
+  ~pagination[limit]: 
+  ~fields: 
+  ~populate: 
+  ~filters: 
+  ~locale: 
+}
+
+auth:bearer {
+  token: {{token}}
+}

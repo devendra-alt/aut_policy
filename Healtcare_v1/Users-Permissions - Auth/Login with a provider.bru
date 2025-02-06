@@ -1,0 +1,19 @@
+meta {
+  name: Login with a provider
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:1339/api/connect/{provider}
+  body: none
+  auth: bearer
+}
+
+params:path {
+  provider: 
+}
+
+auth:bearer {
+  token: {{token}}
+}

@@ -1,0 +1,29 @@
+meta {
+  name: post-dispensaries
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:1339/api/dispensaries
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "data": {
+      "prescription": [],
+      "medicines": "",
+      "owner": [],
+      "prescriptions": [],
+      "hospital": "",
+      "locale": "",
+      "localizations": []
+    }
+  }
+}

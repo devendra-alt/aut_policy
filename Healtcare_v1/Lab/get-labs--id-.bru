@@ -1,0 +1,19 @@
+meta {
+  name: get-labs--id-
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:1339/api/labs/{id}
+  body: none
+  auth: bearer
+}
+
+params:path {
+  id: 
+}
+
+auth:bearer {
+  token: {{token}}
+}
