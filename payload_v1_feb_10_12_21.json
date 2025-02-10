@@ -1,0 +1,2107 @@
+{
+    "collection": {
+        "version": "1",
+        "uid": "fx7t7c000000000000000",
+        "name": "Healtcare_v1",
+        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1",
+        "items": [
+            {
+                "uid": "U79ZyjtzLs4CwKVV3SI4y",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary",
+                "name": "Dispensary",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "EWVzaUThuEF41WP5cLmBS",
+                        "name": "delete-dispensaries--id-",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/dispensaries/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "4TDidNgpv3oNj7hPWKOS8"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "delete-dispensaries--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary/delete-dispensaries--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "aYYBOKAziknatQG9KDd78",
+                        "name": "get-dispensaries--id-",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/dispensaries/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "Dt3V6NrSNVPTSCFy332WV"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-dispensaries--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary/get-dispensaries--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "oGwpwfZHpMcn3EOFy8TSh",
+                        "name": "get-dispensaries",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/dispensaries",
+                            "params": [
+                                {
+                                    "name": "sort",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "xgjIAL9tTNH3t1guRpPAY"
+                                },
+                                {
+                                    "name": "pagination[withCount]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "U9eYSeNdEF6IMwEqU0WOx"
+                                },
+                                {
+                                    "name": "pagination[page]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "H7SSP0CZNy4m4vN9ytL87"
+                                },
+                                {
+                                    "name": "pagination[pageSize]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "w61X617ljiy8CwFaXaPEw"
+                                },
+                                {
+                                    "name": "pagination[start]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "HHbF2bwOeh2JAhDO7tUyo"
+                                },
+                                {
+                                    "name": "pagination[limit]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "051wgC7QEk6XpwkaWcWeO"
+                                },
+                                {
+                                    "name": "fields",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "7AKNvqFLc6OZww8iENdfr"
+                                },
+                                {
+                                    "name": "populate",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "TJqb9mm9deT4S7HGgH4dn"
+                                },
+                                {
+                                    "name": "filters",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "o71XnlJys7rDrzcbVvte6"
+                                },
+                                {
+                                    "name": "locale",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "ssVs7G5BHtYyLfQK20TV1"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-dispensaries.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary/get-dispensaries.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "DMnIPjxcuSsX2wSvACfNA",
+                        "name": "post-dispensaries",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/dispensaries",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"data\": {\n    \"prescription\": [],\n    \"medicines\": \"\",\n    \"owner\": [],\n    \"prescriptions\": [],\n    \"hospital\": \"\",\n    \"locale\": \"\",\n    \"localizations\": []\n  }\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "post-dispensaries.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary/post-dispensaries.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "eULIv3w23umXEvZTlF8GI",
+                        "name": "put-dispensaries--id-",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/dispensaries/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "l3CmcF9T6sEYO0pbcsY9T"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "put-dispensaries--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Dispensary/put-dispensaries--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "GGI0ccjwyph63DBjAIQOW",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital",
+                "name": "Hospital",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "Oxjdhxipzdp0ann2Io5h3",
+                        "name": "delete-hospitals--id-",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/hospitals/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "AL0MFqLY3oIS4AdUhLvEc"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "delete-hospitals--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital/delete-hospitals--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "AWcBMCKdWoOGPhuAtgieT",
+                        "name": "get-hospitals--id-",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/hospitals/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "npxScInwZ5I9eEWe5G7lV"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-hospitals--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital/get-hospitals--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "vQmhCJ3E4Va570S4dDRxN",
+                        "name": "get-hospitals",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/hospitals",
+                            "params": [
+                                {
+                                    "name": "sort",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "ZiOLVFoOqiDXqceADoGHr"
+                                },
+                                {
+                                    "name": "pagination[withCount]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "cjtIwbJxeqhQVurRIMDIr"
+                                },
+                                {
+                                    "name": "pagination[page]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "wNbeLJEALDsC7KxSl5a6d"
+                                },
+                                {
+                                    "name": "pagination[pageSize]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "29NV2oXbmNtowjPSnmoEf"
+                                },
+                                {
+                                    "name": "pagination[start]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "68MfxS8LehXzA5qPhSyWr"
+                                },
+                                {
+                                    "name": "pagination[limit]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "l2mNMmGRxzAZNQYaiVITI"
+                                },
+                                {
+                                    "name": "fields",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "bn3bJNBkxVrZwj8ZZjfof"
+                                },
+                                {
+                                    "name": "populate",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "c8fbnDsYrBpnPDGR8UohU"
+                                },
+                                {
+                                    "name": "filters",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "EATtuHXqtEwqsMcSb8jPQ"
+                                },
+                                {
+                                    "name": "locale",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "0xWXJ8donL3kqgJkAujJ2"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-hospitals.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital/get-hospitals.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "1TaPGNeXD8pJONTGBs6Uu",
+                        "name": "post-hospitals",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/hospitals",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"data\": {\n    \"dispensaries\": [],\n    \"patient\": [],\n    \"doctors\": [],\n    \"labs\": [],\n    \"Hospital_name\": \"\",\n    \"Address\": \"\",\n    \"hospital_id\": \"\",\n    \"locale\": \"\",\n    \"localizations\": []\n  }\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "post-hospitals.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital/post-hospitals.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "f1Ps1JS7ZFppEI3Ybh7bN",
+                        "name": "put-hospitals--id-",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/hospitals/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "Eqo2BORwlYvJQ1DxV8qGc"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "put-hospitals--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Hospital/put-hospitals--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "hFoX4l2aym2YrNLHhTzT1",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab",
+                "name": "Lab",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "eUWVQ33ZT2DmDCioVxvtv",
+                        "name": "delete-labs--id-",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/labs/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "HXag5bxkYWUSuUFlSl4Ja"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "delete-labs--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab/delete-labs--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "JFpKh9l4qgMyaWDvOXXf7",
+                        "name": "get-labs--id-",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/labs/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "leQ7PDp0ssnav8D7cJ7ms"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-labs--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab/get-labs--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "CgfXlXrWogkU2vy3KHhK8",
+                        "name": "get-labs",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/labs",
+                            "params": [
+                                {
+                                    "name": "sort",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "PspjzuMDisL7lOj6tbfXg"
+                                },
+                                {
+                                    "name": "pagination[withCount]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "U34W0mSQsBgOwtphADeHt"
+                                },
+                                {
+                                    "name": "pagination[page]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "ZXJQjfh3Swmj7YuL5hmtw"
+                                },
+                                {
+                                    "name": "pagination[pageSize]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "rhRXSqKhm3fLyKIBAObGy"
+                                },
+                                {
+                                    "name": "pagination[start]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "ZtWd43O2eauqIQJM1J25v"
+                                },
+                                {
+                                    "name": "pagination[limit]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "9MDIummEJmm7rdMQVMnQx"
+                                },
+                                {
+                                    "name": "fields",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "NUO01R0spvR5JAGNOcgvt"
+                                },
+                                {
+                                    "name": "populate",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "HyIqn3VYYiokRrdidMBCz"
+                                },
+                                {
+                                    "name": "filters",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "dHhCfYftKLXxoNhRyCYbB"
+                                },
+                                {
+                                    "name": "locale",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "Soz1ywhMNdc8Ohg39mgpD"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-labs.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab/get-labs.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "Dg4ippUN9xE4xTuIRHV5x",
+                        "name": "post-labs",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/labs",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"data\": {\n    \"report\": \"\",\n    \"dicoms\": [],\n    \"users\": [],\n    \"prescription\": [],\n    \"hospital\": \"\",\n    \"locale\": \"\",\n    \"localizations\": []\n  }\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "post-labs.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab/post-labs.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "nNL5ANXorvYXn3RBb4ZBR",
+                        "name": "put-labs--id-",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/labs/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "CzgOdt4SPtdLcojPqmPTr"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "put-labs--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Lab/put-labs--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "HH7zDny726guZnF3iVrzG",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription",
+                "name": "Prescription",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "ThPqLQmxIdTatObaw5UXV",
+                        "name": "delete-prescriptions--id-",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/prescriptions/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "Qy8FWQKq9C70W7zRNVsIS"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "delete-prescriptions--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription/delete-prescriptions--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "YwdoOIM5bQUl6bCsfcSQX",
+                        "name": "get-prescriptions--id-",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/prescriptions/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "Vx85VJEYBSswJqbOPtbVL"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-prescriptions--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription/get-prescriptions--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "8OT14luO64MsbmHynyWzP",
+                        "name": "get-prescriptions",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/prescriptions",
+                            "params": [
+                                {
+                                    "name": "sort",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "SWdCP73n0GumFHOl1eOUs"
+                                },
+                                {
+                                    "name": "pagination[withCount]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "IaLSvCxa6wbH7BxULy7ih"
+                                },
+                                {
+                                    "name": "pagination[page]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "614uvgOnlvapYSKGjKRh6"
+                                },
+                                {
+                                    "name": "pagination[pageSize]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "FEdvlbwahF0a1aJJyqtuW"
+                                },
+                                {
+                                    "name": "pagination[start]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "LkohHNIpkqvzFWkm0c75y"
+                                },
+                                {
+                                    "name": "pagination[limit]",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "KIXpQBOWVbzZ2UwqEr1nY"
+                                },
+                                {
+                                    "name": "fields",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "7kVLVn68Ug5cTcJZzQRap"
+                                },
+                                {
+                                    "name": "populate",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "jJyRzeLSQXM0F96XQSORf"
+                                },
+                                {
+                                    "name": "filters",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "fYNjf0YJlCwL2c8HEEut2"
+                                },
+                                {
+                                    "name": "locale",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "cRco9tAKs7gKf3bzm4zsa"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get-prescriptions.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription/get-prescriptions.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "4aaP3DKV8awIdDIdRfiEg",
+                        "name": "post-prescriptions",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/prescriptions",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"data\": {\n    \"prescription\": [],\n    \"dispensaries\": [],\n    \"doctor\": \"\",\n    \"patient\": \"\",\n    \"locale\": \"\",\n    \"localizations\": []\n  }\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "post-prescriptions.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription/post-prescriptions.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "XncsOTUNsg53ObhhLnlJg",
+                        "name": "put-prescriptions--id-",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/prescriptions/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "1a7YQYjPVGte7G7z6hHFq"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "put-prescriptions--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Prescription/put-prescriptions--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "FOlbQJuC9Cysq5puFvJIp",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File",
+                "name": "Upload - File",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "uEHzT6yirAyyzYf79vSJt",
+                        "name": "Upload file information",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/upload?id={id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "query",
+                                    "uid": "Jwvv4N4uPdjotnZTj3aBK"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "multipartForm": [
+                                    {
+                                        "name": "fileInfo",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "J8K7Pcms64EK2ndFIytvX"
+                                    },
+                                    {
+                                        "name": "files",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "bIhebqB79V0BSzN7FCEjd"
+                                    }
+                                ],
+                                "mode": "multipartForm"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Upload file information.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File/Upload file information.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "Wdnr1JAq6agpYn1ZJYi6Q",
+                        "name": "Upload files",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/upload",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "multipartForm": [
+                                    {
+                                        "name": "path",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "yWIJ21WFI44CEiC8tmyAU"
+                                    },
+                                    {
+                                        "name": "refId",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "1vMFBms5jFrok3neQwyWv"
+                                    },
+                                    {
+                                        "name": "ref",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "NbtxGxyGAGR6aLVTedHSB"
+                                    },
+                                    {
+                                        "name": "field",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "2aY4EICyJXpMjgpqxICC8"
+                                    },
+                                    {
+                                        "name": "files",
+                                        "value": "",
+                                        "enabled": true,
+                                        "type": "text",
+                                        "uid": "PswIW2zBdaYOg4CG8tmgx"
+                                    }
+                                ],
+                                "mode": "multipartForm"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Upload files.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File/Upload files.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "cMYK6aOFMvd4dgmiEMbZL",
+                        "name": "delete -upload-files--id-",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/upload/files/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "H7GMsCrdvpcnGy8W06VzR"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "delete -upload-files--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File/delete -upload-files--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "cz56rt35KwF2mSn2mzSKh",
+                        "name": "get -upload-files--id-",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/upload/files/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "FkGjkCWOU4itgmqNHbfKT"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get -upload-files--id-.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File/get -upload-files--id-.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "gNWPrdtfHMmznNOkZ3Z2d",
+                        "name": "get -upload-files",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/upload/files",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "get -upload-files.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Upload - File/get -upload-files.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "7b2leiEedZZDKsVmubkGh",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth",
+                "name": "Users-Permissions - Auth",
+                "collapsed": false,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "dsfZxhBuF22LrpbzDp8Gw",
+                        "name": "Confirm user email",
+                        "type": "http-request",
+                        "seq": 8,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/auth/email-confirmation",
+                            "params": [
+                                {
+                                    "name": "confirmation",
+                                    "value": "",
+                                    "enabled": false,
+                                    "type": "query",
+                                    "uid": "cSgTpSoOySbBYT3bfgOIx"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Confirm user email.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Confirm user email.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "8Yjp7nM0TVfoHh1tMnsDS",
+                        "name": "Default Callback from provider auth",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/auth/{provider}/callback",
+                            "params": [
+                                {
+                                    "name": "provider",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "PKgMDBJ6kvYRsoB78mIkn"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Default Callback from provider auth.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Default Callback from provider auth.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "CCiSveuyCilvW1Wmd1lOS",
+                        "name": "Local login",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/local",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "mode": "none"
+                            },
+                            "body": {
+                                "json": "{\n  \"identifier\": \"devendramulewa171@gmail.com\",\n  \"password\": \"Welcome@123\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "[{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"devendramulewa171@gmail.com\",\"password\":\"Welcome@123\"},\"testcase_description\":\"Verify successful login with valid credentials\",\"testcase_id\":\"tc_1647\",\"testcase_type\":\"functional\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":200,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"!=\",\"assert_value\":null,\"propertie_name\":\"body.jwt\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"devendramulewa171@gmail.com\",\"password\":\"WrongPassword\"},\"testcase_description\":\"Verify login failure with incorrect password\",\"testcase_id\":\"tc_1648\",\"testcase_type\":\"negative\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"Incorrect password\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"nonexistentuser@example.com\",\"password\":\"WrongPassword\"},\"testcase_description\":\"Verify login failure with non-existent user\",\"testcase_id\":\"tc_1649\",\"testcase_type\":\"negative\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"User not found\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"devendramulewa171@gmail.com\",\"password\":\"ThisIsAVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongPasswordThatExceedsTheMaximumLength\"},\"testcase_description\":\"Verify login with a very long password (boundary condition)\",\"testcase_id\":\"tc_1650\",\"testcase_type\":\"boundary\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"Password\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"devendramulewa171@gmail.com\",\"password\":\"\"},\"testcase_description\":\"Verify login with empty password\",\"testcase_id\":\"tc_1651\",\"testcase_type\":\"boundary\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"Password\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"testuser@example.com\",\"password\":\"TestPassword123\"},\"testcase_description\":\"Verify successful login with valid email and password\",\"testcase_id\":\"tc_1652\",\"testcase_type\":\"functional\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":200,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"==\",\"assert_value\":\"testuser@example.com\",\"propertie_name\":\"body.user.email\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"invalidemail\",\"password\":\"TestPassword123\"},\"testcase_description\":\"Verify login failure with invalid email format\",\"testcase_id\":\"tc_1653\",\"testcase_type\":\"negative\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"identifier\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":\"devendramulewa171@gmail.com\",\"password\":null},\"testcase_description\":\"Verify login failure with null password\",\"testcase_id\":\"tc_1654\",\"testcase_type\":\"negative\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"password\",\"propertie_name\":\"body.message\"}]},{\"api_endpoint\":\"http://localhost:1339/api/auth/local\",\"header\":{},\"method\":\"POST\",\"request\":{\"identifier\":null,\"password\":\"Welcome@123\"},\"testcase_description\":\"Verify login failure with null email\",\"testcase_id\":\"tc_1655\",\"testcase_type\":\"negative\",\"validation_array\":[{\"assert_condition\":\"==\",\"assert_value\":400,\"propertie_name\":\"status_code\"},{\"assert_condition\":\"contains\",\"assert_value\":\"identifier\",\"propertie_name\":\"body.message\"}]}]",
+                            "docs": ""
+                        },
+                        "filename": "Local login.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Local login.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "XmsSZw2j4STFydXFuDxJV",
+                        "name": "Login with a provider",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/connect/{provider}",
+                            "params": [
+                                {
+                                    "name": "provider",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "FkBMiEGQi0QmVNJtLCcCr"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Login with a provider.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Login with a provider.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "TxGuQ3ggTV6SW3LQchBkA",
+                        "name": "Register a user",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/local/register",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"username\": \"\",\n  \"email\": \"\",\n  \"password\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Register a user.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Register a user.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "lGuhj7CPumfkrs31pydZG",
+                        "name": "Rest user password",
+                        "type": "http-request",
+                        "seq": 6,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/reset-password",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"password\": \"\",\n  \"passwordConfirmation\": \"\",\n  \"code\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Rest user password.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Rest user password.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "5KLkdKgedlyLrZc4JHfdl",
+                        "name": "Send confirmation email",
+                        "type": "http-request",
+                        "seq": 9,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/send-email-confirmation",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"email\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Send confirmation email.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Send confirmation email.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "LCaps1hrrTuURTAkbfSGz",
+                        "name": "Send rest password email",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/forgot-password",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"email\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Send rest password email.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Send rest password email.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "kyXU4xVupzAscTJ10yRgR",
+                        "name": "Update user-s own password",
+                        "type": "http-request",
+                        "seq": 7,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/auth/change-password",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"password\": \"\",\n  \"currentPassword\": \"\",\n  \"passwordConfirmation\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Update user-s own password.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Auth/Update user-s own password.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            },
+            {
+                "uid": "KIjtQlGMPQqyiQllJuXhY",
+                "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles",
+                "name": "Users-Permissions - Users - Roles",
+                "collapsed": true,
+                "type": "folder",
+                "items": [
+                    {
+                        "uid": "kQNpRykA6WQljO2Iwdtyu",
+                        "name": "Create a role",
+                        "type": "http-request",
+                        "seq": 3,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/users-permissions/roles",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"name\": \"\",\n  \"description\": \"\",\n  \"type\": \"\",\n  \"permissions\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Create a role.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Create a role.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "aqoaSfjNB1fqYL5Cafeqs",
+                        "name": "Create a user",
+                        "type": "http-request",
+                        "seq": 8,
+                        "request": {
+                            "method": "POST",
+                            "url": "http://localhost:1339/api/users",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"email\": \"\",\n  \"username\": \"\",\n  \"password\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Create a user.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Create a user.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "ICGha7dQMeH26ufEkekf7",
+                        "name": "Delete a role",
+                        "type": "http-request",
+                        "seq": 6,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/users-permissions/roles/{role}",
+                            "params": [
+                                {
+                                    "name": "role",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "nJFKoAHdcJlHqUCy9OUKS"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Delete a role.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Delete a role.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "MeqMEZU33bAf8QMFb1VDg",
+                        "name": "Delete a user",
+                        "type": "http-request",
+                        "seq": 11,
+                        "request": {
+                            "method": "DELETE",
+                            "url": "http://localhost:1339/api/users/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "TbyVsszL4OlG7ymqhRO7a"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Delete a user.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Delete a user.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "8lndNrIbM89wWHZUcj1XX",
+                        "name": "Get a role",
+                        "type": "http-request",
+                        "seq": 4,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users-permissions/roles/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "daIw9IwFmXUetZQP5YsXh"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get a role.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get a role.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "6XE1g57pybSHbb66eUykj",
+                        "name": "Get a user",
+                        "type": "http-request",
+                        "seq": 9,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "VECN0DKTYlnahePehhoIk"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get a user.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get a user.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "qL8TJ7o2wxN8nwsGdPtJA",
+                        "name": "Get authenticated user info",
+                        "type": "http-request",
+                        "seq": 12,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users/me",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get authenticated user info.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get authenticated user info.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "US4gW6oI1MAwRT0HmfIaP",
+                        "name": "Get default generated permissions",
+                        "type": "http-request",
+                        "seq": 1,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users-permissions/permissions",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get default generated permissions.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get default generated permissions.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "MvnXT6fdCJncptnd9StuV",
+                        "name": "Get list of users",
+                        "type": "http-request",
+                        "seq": 7,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get list of users.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get list of users.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "bBiponOLEqamWRNNeEU5j",
+                        "name": "Get user count",
+                        "type": "http-request",
+                        "seq": 13,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users/count",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Get user count.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Get user count.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "BMqKJOcYqJ5dKA4vUefo6",
+                        "name": "List roles",
+                        "type": "http-request",
+                        "seq": 2,
+                        "request": {
+                            "method": "GET",
+                            "url": "http://localhost:1339/api/users-permissions/roles",
+                            "params": [],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "List roles.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/List roles.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "y0ThlFrJgioKk9LBnsqEV",
+                        "name": "Update a role",
+                        "type": "http-request",
+                        "seq": 5,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/users-permissions/roles/{role}",
+                            "params": [
+                                {
+                                    "name": "role",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "u2TkEXkGXVCGF6nOykuGH"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "mode": "none"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Update a role.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Update a role.bru",
+                        "draft": null,
+                        "depth": 2
+                    },
+                    {
+                        "uid": "xpIWbLkEObYetb3lSPnz7",
+                        "name": "Update a user",
+                        "type": "http-request",
+                        "seq": 10,
+                        "request": {
+                            "method": "PUT",
+                            "url": "http://localhost:1339/api/users/{id}",
+                            "params": [
+                                {
+                                    "name": "id",
+                                    "value": "",
+                                    "enabled": true,
+                                    "type": "path",
+                                    "uid": "du6UpSKryLhbBEUND0dfi"
+                                }
+                            ],
+                            "headers": [],
+                            "auth": {
+                                "bearer": {
+                                    "token": "{{token}}"
+                                },
+                                "mode": "bearer"
+                            },
+                            "body": {
+                                "json": "{\n  \"email\": \"\",\n  \"username\": \"\",\n  \"password\": \"\"\n}",
+                                "mode": "json"
+                            },
+                            "script": {},
+                            "vars": {},
+                            "assertions": [],
+                            "tests": "",
+                            "docs": ""
+                        },
+                        "filename": "Update a user.bru",
+                        "pathname": "/home/devendra/.config/nowaq/collections/Healtcare_v1/Users-Permissions - Users - Roles/Update a user.bru",
+                        "draft": null,
+                        "depth": 2
+                    }
+                ],
+                "depth": 1
+            }
+        ],
+        "runtimeVariables": {},
+        "brunoConfig": {
+            "version": "1",
+            "name": "Healtcare_v1",
+            "type": "collection",
+            "ignore": [
+                "node_modules",
+                ".git"
+            ]
+        },
+        "settingsSelectedTab": "headers",
+        "folderLevelSettingsSelectedTab": {},
+        "importedAt": 1739169627171,
+        "lastAction": null,
+        "collapsed": false,
+        "root": {
+            "request": {
+                "headers": [],
+                "auth": {},
+                "script": {},
+                "vars": {},
+                "tests": ""
+            },
+            "docs": ""
+        },
+        "environments": [
+            {
+                "variables": [
+                    {
+                        "name": "token",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzM5MTA1NjUzLCJleHAiOjE3NDE2OTc2NTN9.FParUmfV5Rm2dFVwZ6mrmpYS_0Z9fyfG65slsfvTnTo",
+                        "enabled": true,
+                        "secret": false,
+                        "type": "text",
+                        "uid": "NG0IG2b0PJ9bcm1TtgOVK"
+                    }
+                ],
+                "name": "dev",
+                "uid": "qNktROMcF8TS3B51dMRJi"
+            }
+        ],
+        "activeEnvironmentUid": "qNktROMcF8TS3B51dMRJi",
+        "selectedItems": {}
+    },
+    "userInfo": {
+        "id": 1,
+        "username": "devendra",
+        "email": "devendramulewa171@gmail.com",
+        "provider": "local",
+        "password": null,
+        "resetPasswordToken": null,
+        "confirmationToken": null,
+        "confirmed": false,
+        "blocked": false,
+        "job_title": "Head of tech",
+        "elastic_entities": null,
+        "createdAt": "2025-02-03T04:17:26.203Z",
+        "updatedAt": "2025-02-03T04:17:26.203Z",
+        "groups": [
+            {
+                "id": 1,
+                "name": "beta_group",
+                "createdAt": "2025-02-03T04:12:37.010Z",
+                "updatedAt": "2025-02-03T04:12:38.134Z",
+                "publishedAt": "2025-02-03T04:12:38.131Z"
+            }
+        ],
+        "organizations": [
+            {
+                "id": 1,
+                "name": "hph",
+                "domain": "Software Development",
+                "size": "0-10 people",
+                "createdAt": "2025-02-03T04:12:56.795Z",
+                "updatedAt": "2025-02-03T04:13:07.037Z"
+            }
+        ],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaGNtX3JvbGUiOiJIYXJpc2hSb2xlIiwiaWF0IjoxNzM4NTU2MjY4LCJleHAiOjE3NDExNDgyNjh9.tamwNFMNEbBLz8EIpRT6moeb4KzSHwLZtSnuhGlcq0s"
+    }
+}
